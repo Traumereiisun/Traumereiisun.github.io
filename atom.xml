@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://traumereiisun.github.io</id>
     <title>Traumereiisun&apos;s blog</title>
-    <updated>2021-09-30T07:06:38.520Z</updated>
+    <updated>2021-09-30T07:41:10.679Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://traumereiisun.github.io"/>
     <link rel="self" href="https://traumereiisun.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://traumereiisun.github.io/images/avatar.png</logo>
     <icon>https://traumereiisun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Traumereiisun&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Markdown 模板写作]]></title>
+        <id>https://traumereiisun.github.io/post/markdown-mo-ban-xie-zuo/</id>
+        <link href="https://traumereiisun.github.io/post/markdown-mo-ban-xie-zuo/">
+        </link>
+        <updated>2021-09-30T07:30:36.000Z</updated>
+        <content type="html"><![CDATA[<p>写作时，可以参考 <a href="https://markdown.com.cn/editor/"> Markdown在线编辑器</a><br>
+<a id="jump_8"></a></p>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<p><strong>粗体</strong></p>
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<blockquote>
+<p>引用一句名言</p>
+</blockquote>
+<h2 id="分割线">分割线：</h2>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用博客记录生活的点滴]]></title>
         <id>https://traumereiisun.github.io/post/shi-yong-bo-ke-ji-lu-sheng-huo-de-dian-di/</id>
