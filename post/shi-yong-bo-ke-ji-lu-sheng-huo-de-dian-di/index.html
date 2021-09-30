@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Traumereiisun&#39;s blog</title>
+<title>使用博客记录生活的点滴 | Traumereiisun&#39;s blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,14 +12,24 @@
 <link rel="stylesheet" href="https://traumereiisun.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="每天进步一点点......">
-    
+    <meta name="description" content="2021.9.30，花了一个上午将 Gridea 与 Github Page 进行配置。
+目的：
+（1）记录生活中所学到的东西
+（2）日后回顾所学到的东西
+" />
+    <meta name="keywords" content="日志" />
   </head>
   <body>
     <div id="app" class="main">
@@ -89,27 +99,37 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://traumereiisun.github.io/post/shi-yong-bo-ke-ji-lu-sheng-huo-de-dian-di/">
-                  <h2 class="post-title">使用博客记录生活的点滴</h2>
-                </a>
-                <div class="post-date">
-                  2021-09-30
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+          <div class="post-detail">
+            <h2 class="post-title">使用博客记录生活的点滴</h2>
+            <div class="post-date">2021-09-30</div>
+            
+            <div class="post-content" v-pre>
+              <p>2021.9.30，花了一个上午将 Gridea 与 Github Page 进行配置。<br>
+目的：<br>
+（1）记录生活中所学到的东西<br>
+（2）日后回顾所学到的东西</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://traumereiisun.github.io/tag/BwNWMuVh6/" class="tag">
+                    日志
+                  </a>
+                
+              </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -130,6 +150,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '05261004b20e3a11f14d',
+        clientSecret: '067409fab028f1bed306b3dac53b9619ae6718bb',
+        repo: 'traumereiisun.github.io',
+        owner: 'Traumereiisun',
+        admin: ['Traumereiisun'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
